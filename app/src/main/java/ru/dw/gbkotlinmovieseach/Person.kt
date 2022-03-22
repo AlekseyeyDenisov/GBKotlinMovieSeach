@@ -1,8 +1,8 @@
 package ru.dw.gbkotlinmovieseach
 
 
-class Person(private val firstName:String, private val lastName:String, private val age:Int) {
-    fun printPerson():String{
+class Person(private val firstName: String, private val lastName: String, private val age: Int) {
+    fun printPerson(): String {
         return "Имя: $lastName " +
                 "Фамили: $firstName " +
                 "его возраст: " +
@@ -10,7 +10,6 @@ class Person(private val firstName:String, private val lastName:String, private 
 
     }
 
-    private fun inAYear(age: Int):Int {
-        return age + 1
-    }
+    private fun inAYear(age: Int) = age + 1
+
 }
