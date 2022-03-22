@@ -19,6 +19,14 @@ class MainActivity : AppCompatActivity() {
         initView()
         onClickTestButton()
 
+        val data = Data(1,1,1)
+        val data2 = data.copy()
+        data2.age = 100
+
+        Log.d("@@@","Data  age: ${data.age}")
+        Log.d("@@@","Data2 age: ${data2.age}")
+
+
 
     }
 
